@@ -1,0 +1,20 @@
+
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar';
+import NewsBoard from './components/NewsBoard';
+import { useState } from 'react';
+
+function App() {
+  const [category,setCategory] = useState("general");
+
+  return (
+    <>
+    <NavBar setCategory={setCategory}/>
+    <NewsBoard category={category}/>
+   
+    </>
+  )
+}
+
+export default App
