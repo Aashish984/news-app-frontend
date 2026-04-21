@@ -17,5 +17,4 @@ A simple news application built using React that shows latest headlines.
 npm install
 npm start
 
-## 📸 Screenshot
-(Add your screenshot here)
+
